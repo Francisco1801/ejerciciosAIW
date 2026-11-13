@@ -1,0 +1,14 @@
+body { font-family: Arial, sans-serif; margin: 2rem auto; max-width: 1000px; padding: 0 1rem; }
+table { border-collapse: collapse; width: 100%; }
+th, td { border: 1px solid #ccc; padding: .5rem; text-align: left; }
+th { background: #f0f0f0; }
+td.num { text-align: right; }
+form label { display: inline-block; width: 160px; margin-top: .6rem; }
+form input { padding: .3rem; width: 280px; }
+form button { margin-top: 1rem; }
+.error { color: #b00020; margin-left: .5rem; font-size: .9rem; }
+.mensaje { padding: .6rem 1rem; margin: 1rem 0; border-radius: 4px; }
+.mensaje.exito { background: #e6f4ea; color: #1e6b34; }
+.mensaje.error { background: #fdecea; color: #b00020; margin-left: 0; font-size: 1rem; }
+form.inline { display: inline; }
+form.inline button { margin: 0; }
